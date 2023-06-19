@@ -1,0 +1,15 @@
+This is an example of the new streaming
+library.  This allows you to print variables
+and strings without having to type line after
+line of Serial.print() calls.  Examples: 
+A is 65.
+The current date is 17-4-2009.
+You can use modifiers too, for example:
+A is 41 in hex. 
+
+In library v6, you also get
+Padding [**********]
+Width specification [   10]
+Leading zeros [04]
+Format strings for stuff like dates and times 17/04/2009 08:20:03
+To reduce your sketch size, these constants can be in PROGMEM
